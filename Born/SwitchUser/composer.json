@@ -1,0 +1,23 @@
+{
+    "name": "born/module-switchuser",
+    "description": "switch user with child user account and override b2b",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "giovanni",
+            "email": "giovanni@vanguardsd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Born\\SwitchUser\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
